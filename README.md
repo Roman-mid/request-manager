@@ -191,7 +191,7 @@ The following scenarios were manually checked during development:
 | Frontend production build                 | Passed |
 | Backend TypeScript build                  | Passed |
 
-Additional scenarios to verify before submission:
+Additional scenarios:
 
 - Filter requests by each status.
 - Check direct navigation and browser refresh on all routes.
