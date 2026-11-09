@@ -1,0 +1,30 @@
+[
+  {
+    "id": "07b68773-5b2e-4765-8823-5391d28d36d9",
+    "title": "Fix phone",
+    "description": "The Phone is not working",
+    "status": "in_progress",
+    "createdAt": "2026-11-05T15:19:04.235Z"
+  },
+  {
+    "id": "885c80cc-7877-4fa4-9f21-001d13006f38",
+    "title": "phone",
+    "description": "Connect phone to the service",
+    "status": "completed",
+    "createdAt": "2026-11-06T17:15:10.559Z"
+  },
+  {
+    "id": "84886994-73dc-4980-ac45-e50bd8a78e7b",
+    "title": "Printer is not connected to a computer",
+    "description": "My computer does not see the printer",
+    "status": "new",
+    "createdAt": "2026-11-09T15:40:17.107Z"
+  },
+  {
+    "id": "49f9fe29-ce60-4ecb-abfd-1916ff9eb470",
+    "title": "Security Camera",
+    "description": "Security Camera records without sound",
+    "status": "in_progress",
+    "createdAt": "2026-11-09T15:41:43.139Z"
+  }
+]

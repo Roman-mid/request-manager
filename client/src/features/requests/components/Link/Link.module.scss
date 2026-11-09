@@ -1,0 +1,36 @@
+.link {
+  align-self: flex-start;
+  min-width: 110px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  background: #4caf50;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+
+  display: block;
+  width: max-content;
+
+  .icon {
+    transition: transform 0.3s ease;
+    width: 15px;
+    height: 15px;
+  }
+
+  &:hover:not(:disabled) {
+    background: #43a047;
+
+    .icon {
+      transform: translateX(-10px);
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}

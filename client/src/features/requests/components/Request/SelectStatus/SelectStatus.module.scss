@@ -1,0 +1,45 @@
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: fit-content;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.select {
+  min-width: 190px;
+  padding: 10px 36px 10px 14px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: #252525;
+
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  cursor: pointer;
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: #86c98a;
+  }
+
+  &:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 0 3px rgb(76 175 80 / 15%);
+  }
+
+  option {
+    padding: 8px;
+  }
+}
