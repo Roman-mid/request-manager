@@ -229,6 +229,6 @@ AI-generated suggestions were reviewed, tested and adapted during development. T
 
 ## Development Time
 
-Actual development time: **[Add your actual time here]**.
+Actual development time: **~7 hours**.
 
 ---
